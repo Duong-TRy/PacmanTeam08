@@ -75,11 +75,13 @@ let randomTargetsForGhosts = [
 //         map[i][j] = 2;
 //     }
 // }
+
 document.addEventListener('keydown', function (event) {
     if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'ArrowLeft' || event.key === 'ArrowRight'|| event.key === ' ') {
         event.preventDefault(); 
     }
 });
+
 
 let createNewPacman = () => {
     pacman = new Pacman(
