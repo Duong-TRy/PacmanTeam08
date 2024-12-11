@@ -284,7 +284,7 @@ gameLoop();
 
 window.addEventListener("keydown", (event) => {
     let k = event.keyCode;
-    if (k == 83) { // 's' key
+    if (k == 32) { // 's' key
         paused = !paused;
     } else {
         if (!paused) {
